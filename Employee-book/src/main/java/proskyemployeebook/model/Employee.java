@@ -4,45 +4,31 @@ import java.util.Objects;
 
 public class Employee {
 
-    private String fullName;
-    private int department ;
-    private double salary;
-    private int id;
-    private static int count = 1;
+    private String firstName;
+    private String lastName;
 
-    public Employee(String name, int department, double salary) {
-        this.fullName = name;
-        this.department = department;
-        this.salary = salary;
-        this.id = count++;
+    public Employee(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public String getFullName() {
-        return fullName;
+    public Employee(){
     }
 
-    public int getDepartment() {
-        return department;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public double getSalary() {
-        return salary;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public int getId() {
-        return id;
+    public String getLastName() {
+        return lastName;
     }
 
-    public static int getCount() {
-        return count;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
-    public void setDepartment(int department) {
-        this.department = department;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     @Override
@@ -50,16 +36,16 @@ public class Employee {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Employee employee = (Employee) o;
-        return department == employee.department && Double.compare(salary, employee.salary) == 0 && id == employee.id && Objects.equals(fullName, employee.fullName);
+        return Objects.equals(firstName, employee.firstName) && Objects.equals(lastName, employee.lastName);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(fullName, department, salary, id);
+        return Objects.hash(firstName, lastName);
     }
 
     @Override
     public String toString() {
-        return " ID:" + id + " Employee: " + fullName + ", department= " + department + ", salary= " + salary;
+        return "Employee:" + firstName + " " + lastName;
     }
 }
