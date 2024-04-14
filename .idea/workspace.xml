@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69c617e-76bc-4876-8150-14e342d4906e" name="Changes" comment="hight level completed">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/exception/EmployeeAlreadyAddedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/exception/EmployeeNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/exception/EmployeeStorageIsFullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/EmployeeService.java" afterDir="false" />
+    <list default="true" id="c69c617e-76bc-4876-8150-14e342d4906e" name="Changes" comment="Internet connection is complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/EmployeeBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/EmployeeBookApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/EmployeeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/EmployeeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hight-lavel" />
+        <entry key="$PROJECT_DIR$" value="exceptions-collections" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,10 +52,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EmployeeApplication.executor": "Run",
-    "git-widget-placeholder": "exceptions-collections",
+    "git-widget-placeholder": "collections",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Танин/IdeaProjects/Hogwarts",
     "node.js.detected.package.eslint": "true",
@@ -136,7 +131,8 @@
       <workItem from="1712669393611" duration="4092000" />
       <workItem from="1712681419476" duration="2680000" />
       <workItem from="1712728347810" duration="8173000" />
-      <workItem from="1713093180586" duration="11063000" />
+      <workItem from="1713093180586" duration="12333000" />
+      <workItem from="1713121817496" duration="1992000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -170,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712733396311</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Internet connection is complete">
+      <option name="closed" value="true" />
+      <created>1713114649321</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713114649321</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +185,7 @@
     <MESSAGE value="basic level completed" />
     <MESSAGE value="average level completed" />
     <MESSAGE value="hight level completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="hight level completed" />
+    <MESSAGE value="Internet connection is complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Internet connection is complete" />
   </component>
 </project>
