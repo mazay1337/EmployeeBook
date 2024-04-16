@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69c617e-76bc-4876-8150-14e342d4906e" name="Changes" comment="Internet connection is complete">
+    <list default="true" id="c69c617e-76bc-4876-8150-14e342d4906e" name="Changes" comment="transferring employees to map">
+      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/exception/IncorrectNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/ValidationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee-book/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/model/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/EmployeeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="exceptions-collections" />
+        <entry key="$PROJECT_DIR$" value="strim-optional" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EmployeeApplication.executor": "Run",
-    "git-widget-placeholder": "collections",
+    "git-widget-placeholder": "library-checking-data",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Танин/IdeaProjects/Hogwarts",
     "node.js.detected.package.eslint": "true",
@@ -67,6 +74,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,6 +118,8 @@
       <list>
         <item itemvalue="Spring Boot.EmployeeApplication" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.EmployeeApplication" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +145,9 @@
       <workItem from="1712728347810" duration="8173000" />
       <workItem from="1713093180586" duration="12333000" />
       <workItem from="1713121817496" duration="1992000" />
+      <workItem from="1713172152032" duration="7585000" />
+      <workItem from="1713196586701" duration="7838000" />
+      <workItem from="1713258029804" duration="6826000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -179,6 +194,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="collections" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
