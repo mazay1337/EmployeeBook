@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69c617e-76bc-4876-8150-14e342d4906e" name="Changes" comment="transferring employees to map">
-      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/exception/IncorrectNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/ValidationService.java" afterDir="false" />
+    <list default="true" id="c69c617e-76bc-4876-8150-14e342d4906e" name="Changes" comment="&#10;added service with verification">
+      <change afterPath="$PROJECT_DIR$/Employee-book/src/test/java/proskyemployeebook/service/DepartmentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee-book/src/test/java/proskyemployeebook/service/EmployeeServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee-book/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/controller/DepartmentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/DepartmentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-book/src/main/java/proskyemployeebook/service/EmployeeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="strim-optional" />
+        <entry key="$PROJECT_DIR$" value="library-checking-data" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +58,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.DepartmentServiceTest,getMaxSalaryPositiveTest and 8 more.executor": "Run",
+    "JUnit.DepartmentServiceTest.executor": "Run",
+    "JUnit.DepartmentServiceTest.getEmployeesFromDepartmentNegativeTest.executor": "Run",
+    "JUnit.DepartmentServiceTest.getEmployeesFromDepartmentTest.executor": "Run",
+    "JUnit.DepartmentServiceTest.getEmployeesGroupedByDepartmentTest.executor": "Run",
+    "JUnit.DepartmentServiceTest.getMaxSalaryNegativeTest.executor": "Run",
+    "JUnit.DepartmentServiceTest.getMaxSalaryPositiveTest.executor": "Run",
+    "JUnit.DepartmentServiceTest.getMinSalaryPositiveTest.executor": "Run",
+    "JUnit.DepartmentServiceTest.getSumOfSalariesNegativeTest.executor": "Run",
+    "JUnit.DepartmentServiceTest.ggetSumOfSalariesPositiveTest.executor": "Run",
+    "JUnit.EmployeeServiceTest.addNegative1Test.executor": "Run",
+    "JUnit.EmployeeServiceTest.addNegative2Test.executor": "Run",
+    "JUnit.EmployeeServiceTest.addPositiveTest.executor": "Run",
+    "JUnit.EmployeeServiceTest.executor": "Coverage",
+    "JUnit.EmployeeServiceTest.findAll.executor": "Run",
+    "JUnit.EmployeeServiceTest.findNegativeTest.executor": "Run",
+    "JUnit.EmployeeServiceTest.findPositiveTest.executor": "Run",
+    "JUnit.EmployeeServiceTest.removeNegativeTest.executor": "Run",
+    "JUnit.EmployeeServiceTest.removePositiveTest.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -66,7 +84,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EmployeeApplication.executor": "Run",
-    "git-widget-placeholder": "library-checking-data",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "testing",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Танин/IdeaProjects/Hogwarts",
     "node.js.detected.package.eslint": "true",
@@ -77,32 +97,103 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.EmployeeApplication">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proskyemployeebook.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="proskyemployeebook.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DepartmentServiceTest">
+    <configuration name="DepartmentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Employee-book" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proskyemployeebook.*" />
+          <option name="PATTERN" value="proskyemployeebook.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="proskyemployeebook.service" />
+      <option name="MAIN_CLASS_NAME" value="proskyemployeebook.service.DepartmentServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="DepartmentServiceTest.getEmployeesFromDepartmentNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Employee-book" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="proskyemployeebook.EmployeeApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proskyemployeebook.*" />
+          <option name="PATTERN" value="proskyemployeebook.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="proskyemployeebook.service" />
+      <option name="MAIN_CLASS_NAME" value="proskyemployeebook.service.DepartmentServiceTest" />
+      <option name="METHOD_NAME" value="getEmployeesFromDepartmentNegativeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentServiceTest.getEmployeesGroupedByDepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Employee-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="proskyemployeebook.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="proskyemployeebook.service" />
+      <option name="MAIN_CLASS_NAME" value="proskyemployeebook.service.DepartmentServiceTest" />
+      <option name="METHOD_NAME" value="getEmployeesGroupedByDepartmentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentServiceTest,getMaxSalaryPositiveTest and 8 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Employee-book" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="proskyemployeebook.service.DepartmentServiceTest,getMaxSalaryPositiveTest" />
+        <pattern testClass="proskyemployeebook.service.DepartmentServiceTest,getMaxSalaryNegativeTest" />
+        <pattern testClass="proskyemployeebook.service.DepartmentServiceTest,getMinSalaryPositiveTest" />
+        <pattern testClass="proskyemployeebook.service.DepartmentServiceTest,getMinSalaryNegativeTest" />
+        <pattern testClass="proskyemployeebook.service.DepartmentServiceTest,ggetSumOfSalariesPositiveTest" />
+        <pattern testClass="proskyemployeebook.service.DepartmentServiceTest,getSumOfSalariesNegativeTest" />
+        <pattern testClass="proskyemployeebook.service.DepartmentServiceTest,getEmployeesFromDepartmentPositiveTest" />
+        <pattern testClass="proskyemployeebook.service.DepartmentServiceTest,getEmployeesFromDepartmentNegativeTest" />
+        <pattern testClass="proskyemployeebook.service.DepartmentServiceTest,getEmployeesGroupedByDepartmentTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentServiceTest.getMaxSalaryPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Employee-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="proskyemployeebook.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="proskyemployeebook.service" />
+      <option name="MAIN_CLASS_NAME" value="proskyemployeebook.service.DepartmentServiceTest" />
+      <option name="METHOD_NAME" value="getMaxSalaryPositiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Employee-book" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="proskyemployeebook.EmployeeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,10 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EmployeeApplication" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Spring Boot.EmployeeApplication" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DepartmentServiceTest" />
+        <item itemvalue="JUnit.DepartmentServiceTest,getMaxSalaryPositiveTest and 8 more" />
+        <item itemvalue="JUnit.DepartmentServiceTest.getEmployeesGroupedByDepartmentTest" />
+        <item itemvalue="JUnit.DepartmentServiceTest.getMaxSalaryPositiveTest" />
+        <item itemvalue="JUnit.DepartmentServiceTest.getEmployeesFromDepartmentNegativeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +239,10 @@
       <workItem from="1713121817496" duration="1992000" />
       <workItem from="1713172152032" duration="7585000" />
       <workItem from="1713196586701" duration="7838000" />
-      <workItem from="1713258029804" duration="6826000" />
+      <workItem from="1713258029804" duration="18215000" />
+      <workItem from="1713284857313" duration="3582000" />
+      <workItem from="1713288459484" duration="4120000" />
+      <workItem from="1713335787061" duration="2144000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -189,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713114649321</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&#10;added service with verification">
+      <option name="closed" value="true" />
+      <created>1713266245986</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713266245986</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +330,12 @@
     <MESSAGE value="average level completed" />
     <MESSAGE value="hight level completed" />
     <MESSAGE value="Internet connection is complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Internet connection is complete" />
+    <MESSAGE value="&#10;added service with verification" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;added service with verification" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Employee_book$EmployeeServiceTest.ic" NAME="EmployeeServiceTest Coverage Results" MODIFIED="1713287276904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>proskyemployeebook.service.*</FILTER>
+    </SUITE>
   </component>
 </project>

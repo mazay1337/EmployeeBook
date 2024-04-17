@@ -21,7 +21,7 @@ public class EmployeeService {
         this.validationService = validationService;
     }
 
-    public void add(String firstName, String lastName, int department, int salary) {
+    public void add(String firstName, String lastName, int salary, int department) {
         if (employees.size() == MAX_EMPLOYEES) {
             throw new EmployeeStorageIsFullException();
         }
@@ -33,7 +33,7 @@ public class EmployeeService {
         if (employees.containsKey(key)) {
             throw new EmployeeAlreadyAddedException();
         }
-        employees.put(key, new Employee(firstName, lastName, department, salary));
+        employees.put(key, new Employee(firstName, lastName, salary, department));
     }
 
     public Employee remove(String firstName, String lastName) {
@@ -118,5 +118,4 @@ public class EmployeeService {
                         employee.getSalary()
                 ));
     }
-
 }
